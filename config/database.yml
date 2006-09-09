@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  database: flow4r_development
+  username: flow4r_development_owner
+  password: flow4r_development
+
+test:
+  adapter: postgresql
+  database: flow4r_test
+  username: flow4r_test_owner
+  password: flow4r_test
+
+production:
+  adapter: postgresql
+  database: flow4r_production
+  username: flow4r_production_owner
+  password: flow4r_production
